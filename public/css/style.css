@@ -1,0 +1,235 @@
+#navcolor{
+    background-color: gray;
+    background-image: url("/images/background-pic.jpg");
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* h1 {
+    font-family: "Montserrat-black";
+    font-size:3rem;
+    line-height:1.5;
+} */
+h2 {
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-size: 2rem;
+    line-height: 1.5;
+    color: red;
+    padding: 10px;
+}
+
+.container-fluid{
+    padding:3% 15%;
+
+}
+body {
+    font-family: "Montserrat-black";
+    line-height: 1.5;
+} 
+
+/*NAV*/
+
+ .navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-size: "Montserrat-Ligth";
+}
+.download-button{
+    margin: 8% 3% 8% 0%;
+}
+.title-image{
+    width:100%;
+    /* transform:rotate(25deg); */
+}
+
+
+
+@media(max-width:1028px ){
+
+
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
+
+/*  my bio*/
+p {
+    line-height: 1.5;
+}
+#mySkills, #myBio {
+    margin: 7% 15%;
+    font-size: 1.5rem;
+    
+}
+/* .fa-check-circle {
+    margin: 5% 15%;
+    color: #ef8172;
+    text-align: center;
+}
+    .fa-check-circle:hover {
+        color: #ff4c68;
+        text-align: center;
+    }
+    .fa-heart {
+        margin: 5% 15%;
+        color: #ef8172;
+        text-align: center;
+    }
+    .fa-heart:hover{
+        color:#ff4c68;
+    }
+.fa-bullseye {
+        margin: 5%;
+        color: #ef8172;
+        text-align: center;
+  }
+     .fa-bullseye:hover {
+        color: #ff4c68;
+       } */
+    
+
+/*CONTACT ME*/
+
+    /*SELECT*/
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #40514E;
+    background-color: #ffffff;
+}
+h1 {
+    margin-top: 5px auto 0 auto;
+    text-align: justify;
+    font-family: "Montserrat-black";
+    font-size: 4.5rem;
+    color: #00334e;
+}
+h2 {
+    margin-top: 0 auto;
+    line-height: 2;
+    color: #145374;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+h3 {
+    color: #5588a3;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-display: swap;
+    text-align: justify;
+}
+.subtitle {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+   
+}
+.intro{ 
+    width:50%;
+    margin:auto;
+}
+.Botton {
+    background-color: #00334e;
+    padding: 50px 0 20px;
+    margin: 0 auto;
+    bottom: 0;
+}
+p {
+    line-height: 1.5;
+}
+hr {
+    border: dotted 9px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+    color: #464159;
+}
+.contact-me {
+    /*background-color: #84a9ac;*/
+    /*text-align: left;*/
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px auto 100px auto;
+    line-height: 1.5;
+}
+.contact-message{
+    width:80%;
+    margin: 55px auto 60px;
+    text-align:justify;
+    /*font-size:20px;*/
+
+}
+.bton {
+    margin:0 auto;
+    text-align:center;
+    background: linear-gradient(to bottom, #27b3e6 5%, #408c99 100%);
+    background-color: #27b3e6;
+    border-radius: 8px;
+    border: 1px solid #29668f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #3d768a;
+}
+  .btn:hover {
+        background: linear-gradient(to bottom, #408c99 5%, #27b3e6 100%);
+        background-color: #408c99;
+    }
+.pro {
+    text-decoration: underline;
+}
+.cloudTop {
+    top:30px; 
+    position: absolute;
+    right:20%;
+    /*top:60px;*/
+}
+.cloudBotton {
+  
+    position: absolute;
+    left:9em;
+    /*bottom:6em;*/
+  
+}
+.moutain {
+  width:100%;
+}
+
+.copyright {
+    color: azure;
+    font-size: 1rem;
+    padding: 20px 0;
+}
