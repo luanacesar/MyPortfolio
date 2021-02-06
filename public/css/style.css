@@ -1,6 +1,6 @@
 #navcolor{
     background-color: gray;
-    background-image: url(https://github.com/luanacesar/MyPortfolio/blob/main/public/images/background-pic.jpg?raw=true);
+    background-image: url(./public/images/background-pic.jpg);
     height: 600px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
