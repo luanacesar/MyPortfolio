@@ -79,6 +79,7 @@ body {
 /*  my bio*/
 p {
     line-height: 1.5;
+    font-size: 1.5rem;
 }
 #mySkills, #myBio {
     margin: 7% 15%;
@@ -103,6 +104,15 @@ p {
    text-align: center;
 }
    .fa-github:hover {
+   color: #f3f3f2;
+} 
+
+.fa-envelope {
+    margin: 5% 5%;
+   color: #5588a3;
+   text-align: center;
+}
+   .fa-envelope:hover {
    color: #f3f3f2;
 } 
 /* .fa-check-circle {
@@ -168,19 +178,29 @@ h3 {
     font-family: Montserrat;
     font-weight: 400;
     font-display: swap;
+    text-align: centers;
+}
+h4 {
+    color: #5588a3;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-display: swap;
     text-align: justify;
 }
+
 
 .Botton {
     background-color: #00334e;
     padding: 50px 0 20px;
     margin: 0 auto;
     bottom: 0;
+    text-align: center;
 }
 p {
     line-height: 1.5;
     text-align: justify;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 hr {
     border: dotted 9px;
@@ -191,16 +211,16 @@ hr {
 }
 .contact-me {
     /*background-color: #84a9ac;*/
-    /*text-align: left;*/
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 100px auto 100px auto;
+    text-align: center;
+    /* width: 60%; 
+    /* margin: 0 auto;
+    margin-top: 100px auto 100px auto; */
     line-height: 1.5;
 }
 .contact-message{
     width:80%;
     margin: 55px auto 60px;
-    text-align:justify;
+    text-align:center;
     /*font-size:20px;*/
 
 }
@@ -227,25 +247,10 @@ hr {
 .pro {
     text-decoration: underline;
 }
-.cloudTop {
-    top:30px; 
-    position: absolute;
-    right:20%;
-    /*top:60px;*/
-}
-.cloudBotton {
-  
-    position: absolute;
-    left:9em;
-    /*bottom:6em;*/
-  
-}
-.moutain {
-  width:100%;
-}
 
 .copyright {
     color: azure;
     font-size: 1rem;
     padding: 20px 0;
+    text-align: center;
 }
