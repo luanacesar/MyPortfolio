@@ -225,14 +225,14 @@ h4 {
 #button{
     display: inline-block;
     text-align: center;
-    width: 50%;
+    width: 40%;
     text-decoration: none;
     color:black;
 }
 #button2{
     display: inline-block;
     text-align: center;
-    width: 50%;
+    width: 40%;
     text-decoration: none;
     color:white;
 
@@ -240,7 +240,7 @@ h4 {
 button, #button{
     display: inline-block;
     text-align: center;
-    width: 50%;
+    width: 40%;
     
 }
   button:hover {
