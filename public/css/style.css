@@ -1,6 +1,6 @@
 #navcolor{
     background-color: gray;
-    background-image: url("/images/background-pic.jpg");
+    background-image: url("public/images/background-pic.jpg");
     height: 600px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -202,7 +202,7 @@ h4 {
 p {
     line-height: 1.5;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 10%;
 }
 hr {
     border: dotted 9px;
@@ -255,4 +255,8 @@ hr {
     font-size: 1rem;
     padding: 20px 0;
     text-align: center;
+}
+.title-image{
+
+    border-radius: 10px;
 }
