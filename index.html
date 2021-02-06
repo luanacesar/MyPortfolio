@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!--Animate style-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Jquery-->
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
     <title>Luana Cesar</title>
   </head>
   <body>
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-
     <section id="navheader">
         <div id="navcolor" class="container-fluid">
             <!-- Nav Bar -->
@@ -51,11 +58,13 @@
                     </ul>
                 </div>
             </nav>
+            <br><br><br><br>
             <!-- Title -->
             <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="h1p">Hello,<br>I'M LUANA</h1>
-                    <h4>A Developer</h>
+                <div class="col-lg-6 px-6">
+                    <h1 class="animate__animated animate__lightSpeedInRight h1p">Hello,</h1>
+                    <h1 class="animate__animated animate__lightSpeedInLeft h1p">I'm Luana </h1>
+                    <h4 class="animate__animated animate__lightSpeedInRight"><b>A Developer</b></h4>
                 </div>
             </div>
         </div>
@@ -63,50 +72,49 @@
     <section id="myBio">
         <div class="row">
             <div class="col-lg-6">
-                <img class="title-image" src="images/myself.JPG" alt="my picture">
+                <img id="title-image" src="images/myself.JPG" alt="my picture">
             </div>
             <div class="col-lg-6">
-                <h3 id="h3p">My Bio</h3>
+                <h3 id="h3p" class="animate__animated animate__fadeInUp ">My Bio</h3>
                 <p class="p1">I am a Software Engineer with 2 years of academic software development experience.  Currently, I’m looking for a position as a developer. I also have a degree in Architecture and Urbanism and I have worked for 5 years in design, project management, and client service.  As a web developer, I build applications with creativity and logical concepts using the agile methodology.</p>
             </div>
     </section>
     <section id="myPortfolio">
         <div class="row">
-            <h3 id="h3p">My Portfolio</h3>
-            <div class="col-lg-6">
-                <img class="title-image" src="images/myweb.png" alt="my picture">
-                <div class="col-lg-3">
-                    <button type="button" class="btn-ligth btn-sm"><i class="fas fa-globe"></i> CODE</button>
-                    <button type="button" class="btn-dark btn-sm"><i class="fas fa-globe"></i> LIVE</button>
+            <h3 id="h3p" class=" animate__animated  animate__animated animate__fadeInUp">My Portfolio</h3>
+            <div class="hover01 column col-lg-6">   
+               <figure><img id="title-image" class="animate__animated animate__zoomIn" src="images/myweb.png" alt="my picture"></figure>
+                <div class="col-lg-12">
+                    <button type="button" class="btn-ligth btn-sm"><a id="button" href="https://github.com/luanacesar/myweb"><i class="fas fa-code"></i> CODE</a></button>
+                    <button type="button" class="btn-dark btn-sm"><a id="button2" href="https://luanacesar.github.io/myweb/"><i class="fas fa-globe"></i> LIVE </a></button>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="title-image" src="images/easyrecipe.png" alt="my picture">
-                <div class="col-lg-3">
-                    <button type="button" class="btn-ligth btn-sm"><i class="fas fa-globe"></i> CODE</button>
-                    <button type="button" class="btn-dark btn-sm"><i class="fas fa-globe"></i> LIVE</button>
+            <div class="hover01 column col-lg-6">  
+                <figure><img id="title-image" class="animate__animated animate__zoomIn" src="images/easyrecipe.png" alt="my picture"></figure>
+                <div class="col-lg-12">
+                    <button type="button" class="btn-ligth btn-sm"><a id="button" href="https://github.com/luanacesar/Easyrecipes"><i class="fas fa-code"></i> CODE</a></button>
+                    <button type="button" class="btn-dark btn-sm"><a id="button2" href=""><i class="fas fa-globe"></i> LIVE </a></button>
                 </div>
             </div>
-            
-            <div class="col-lg-6">
-                <img class="title-image" src="images/OnClickCleaner1.jpg" alt="my picture">
-                <div class="col-lg-3">
-                    <button type="button" class="btn-ligth btn-sm"><i class="fas fa-globe"></i> CODE</button>
-                    <button type="button" class="btn-dark btn-sm"><i class="fas fa-globe"></i> LIVE</button>
+            <div class="hover01 column col-lg-6">&nbsp;&nbsp; 
+                <figure><img id="title-image" class="animate__animated animate__zoomIn" src="images/OnClickCleaner1.jpg" alt="my picture"></figure>
+                <div class="col-lg-12">
+                    <button type="button" class="btn-ligth btn-sm"><a id="button" href="https://github.com/luanacesar/OneClickCleaner/tree/US15"><i class="fas fa-code"></i> CODE</a></button>
+                    <button type="button" class="btn-dark btn-sm"><a id="button2" href="https://luanacesar.github.io/Brazilian-restaurant/"><i class="fas fa-globe"></i> LIVE </a></button>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="title-image" src="images/restaurant1.png" alt="my picture">
-                <div class="col-lg-3">
-                    <button type="button" class="btn-ligth btn-sm"><i class="fas fa-globe"></i> CODE</button>
-                    <button type="button" class="btn-dark btn-sm"><i class="fas fa-globe"></i> LIVE</button>
+            <div class="hover01 column col-lg-6">&nbsp;&nbsp; 
+                <figure><img id="title-image" class="animate__animated animate__zoomIn" src="images/restaurant1.png" alt="my picture"></figure>
+                <div class="col-lg-12">
+                    <button type="button" class="btn-ligth btn-sm"><a id="button" href="https://github.com/luanacesar/Brazilian-restaurant"><i class="fas fa-code"></i> CODE</a></button>
+                    <button type="button" class="btn-dark btn-sm"><a id="button2" href="https://luanacesar.github.io/Brazilian-restaurant/"><i class="fas fa-globe"></i> LIVE </a></button>
                 </div>
             </div>
         </div>
     </section>
     <section id="mySkills">
         <div class="row">
-            <h3 id="h3p">Skills and Education</h3>
+            <h3 id="h3p" class="animate__animated animate__fadeInUp animate__repeat-2">Skills and Education</h3>
             <div class="row">
                 <div class="col-lg-3">
                 <h3><i class="fab fa-js fa-3x"></i></h3>
@@ -149,13 +157,14 @@
     </section>
     <section id="myContact">
         <div class="Botton">
+            <h3 id="h3p" class="animate__animated animate__fadeInUp">Contact me to learn more</h3>
             <div class="contact-me">
-                <h3 id="h3p">Contact me to learn more</h3>
             <a href="https://www.linkedin.com/in/luana-c%C3%A9sar-389b7378/"><i class="fab fa-linkedin fa-4x"></i></a>
             <a href="https://github.com/luanacesar"><i class="fab fa-github fa-4x"></i></a>
             <a href="mailto:luana.codes@outlook.com"><i class="fas fa-envelope fa-4x"></i></a>
             <p class="copyright"> &copy;  Luana Cesar 2021</p>
         </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>

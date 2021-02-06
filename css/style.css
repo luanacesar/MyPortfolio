@@ -29,13 +29,10 @@
     font-size: 1.2rem;
     font-size: "Montserrat-Ligth";
 }
-.download-button{
-    margin: 8% 3% 8% 0%;
-}
 
-.title-image{
+
+#title-image{
     width:100%;
-    /* transform:rotate(25deg); */
 }
 
 @media(max-width:1028px ){
@@ -44,7 +41,7 @@
     #title{
         text-align:center;
     }
-    .title-image{
+    #title-image{
         position:static;
 
     }
@@ -54,24 +51,29 @@
 .p,.p1 {
     line-height: 1.5;
     font-size: 2.3rem;
-
 }
 
 #mySkills, #myBio {
     margin: 7% 15%;
     font-size: 1.5rem;
-
 }
 .row-1{
-    margin: 7% 7%;
+    margin: 10% 7%;
     font-size: 1.5rem;
 
 }
 #myPortfolio{
 
-    padding: 7% 2%;
+    padding: 3% 3% 3% 3%;
     font-size: 1.5rem;
     background-color:#dedcdd;
+
+}
+#colorB{
+    border: 2px solid #5588a3;
+    padding:1% 1%;
+    background-color: #145374;
+    border-radius: 20px;
 }
 
 .fa-linkedin {
@@ -121,7 +123,7 @@ body {
     color: #145374;
     font-size: 4.5rem;
     text-align: justify;
-    padding: 10% 10% 0%;
+    padding-left: 10%;
     font-family: Pacifico;
 }
 
@@ -132,7 +134,7 @@ h2 {
     color: #145374;
     text-align: center;
     font-size: 3.5rem;
-    font-family: Pacifico;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -148,18 +150,19 @@ h3 {
     text-align: center;
 }
 #h3p {
-    padding: 2%;
+    padding: 1%;
     font-size: 2.5rem;
-    color: #5588a3;
+    color: #056162;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Pacifico;
     font-weight: 400;
     font-display: swap;
     text-align: center;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
-
-
-
 
 h4 {
     margin-top: 0 auto;
@@ -169,6 +172,7 @@ h4 {
     color: #5588a3;
     text-align: justify;
     font-family: Montserrat;
+    font-weight: bold;
     font-weight: 400;
     font-display: swap;
 
@@ -185,13 +189,7 @@ h4 {
     text-align: justify;
     font-size: 1.8rem;
 }
-/* hr {
-    border: dotted 9px;
-    border-bottom: none;
-    width: 5%;
-    margin: 100px auto;
-    color: #464159;
-} */
+
 .contact-me {
     /*background-color: #84a9ac;*/
     text-align: center;
@@ -207,10 +205,6 @@ h4 {
     /*font-size:20px;*/
 
 }
-/* 
-.pro {
-    text-decoration: underline;
-} */
 
 .copyright {
     color: #145374;
@@ -218,15 +212,59 @@ h4 {
     padding: 20px 0;
     text-align: center;
 }
-.title-image{
+#title-image{
 
     border-radius: 10px;
     padding:3% 3%;
+    /* -webkit-animation: eighty 2s ease-out forwards;
+       -moz-animation: eighty 2s ease-out forwards;
+        -ms-animation: eighty 2s ease-out forwards;
+         -o-animation: eighty 2s ease-out forwards;
+            animation: eighty 2s ease-out forwards; */
 }
-button{
-    text-align: justify;
+#button{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    color:black;
+}
+#button2{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    text-decoration: none;
+    color:white;
+
+}
+button, #button{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    
 }
   button:hover {
         background: linear-gradient(to bottom, #408c99 5%, #27b3e6 100%);
         background-color: #408c99;
+    }
+
+    figure {
+
+        overflow: hidden;
+    }
+    figure:hover+span {
+        bottom: -36px;
+        opacity: 1;
+    }
+    
+    /* Zoom In #1 */
+    .hover01 figure img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hover01 figure:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
     }
