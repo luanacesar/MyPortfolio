@@ -1,10 +1,7 @@
 #navcolor{
     background-color: gray;
-<<<<<<< HEAD
     background-image: url(./public/images/background-pic.jpg);
-=======
     background-image: url("./public/images/background-pic.jpg");
->>>>>>> e69e92004b8538979ff2448c7ac5cfea25b097d5
     height: 600px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
