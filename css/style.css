@@ -1,7 +1,7 @@
 #navcolor{
     background-color: gray;
-    background-image: url(./public/images/background-pic.jpg);
-    background-image: url("./public/images/background-pic.jpg");
+  
+    background-image: url("/images/background-pic.jpg");
     height: 600px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -24,7 +24,7 @@ h3 {
     font-size: 3rem;
     line-height: 1.5;
     color: red;
-    padding: 10px;
+    padding: 5% 5%;
 }
 
 .container-fluid{
@@ -88,6 +88,16 @@ body {
     margin: 7% 15%;
     font-size: 1.5rem;
     
+}
+.row-1{
+  
+    margin: 7% 15%;
+    font-size: 1.5rem;
+    
+}
+#myPortfolio{
+    padding: 10px;
+    background-color:#dedcdd ;
 }
 
 /* <a href="https://www.linkedin.com/in/luana-c%C3%A9sar-389b7378/"><i class="fab fa-linkedin"></i></a>
@@ -194,16 +204,16 @@ h4 {
 
 
 .Botton {
-    background-color: #00334e;
+    background-color:#dedcdd;    ;
     padding: 50px 0 20px;
     margin: 0 auto;
     bottom: 0;
     text-align: center;
 }
-p {
+.p,.p1 {
     line-height: 1.5;
     text-align: justify;
-    font-size: 10%;
+    font-size: 1.8rem;    
 }
 hr {
     border: dotted 9px;
