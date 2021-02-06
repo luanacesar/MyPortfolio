@@ -1,30 +1,13 @@
 #navcolor{
     background-color: gray;
-  
-    background-image: url("https://github.com/luanacesar/MyPortfolio/blob/main/images/background-pic.jpg?raw=true");
+    background-image: url("/images/background-pic.jpg");
     height: 600px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
-
-/* h1 {
-    font-family: "Montserrat-black";
-    font-size:3rem;
-    line-height:1.5;
-} */
-h2 {
-    font-family: "Montserrat-bold";
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: "Montserrat-bold";
-    font-size: 3rem;
-    line-height: 1.5;
-    color: red;
-    padding: 5% 5%;
+.navbar{
+    margin-left: 5%;
 }
 
 .container-fluid{
@@ -58,12 +41,11 @@ body {
 .download-button{
     margin: 8% 3% 8% 0%;
 }
+
 .title-image{
     width:100%;
     /* transform:rotate(25deg); */
 }
-
-
 
 @media(max-width:1028px ){
 
@@ -90,18 +72,17 @@ body {
     
 }
 .row-1{
-  
-    margin: 7% 15%;
+    margin: 7% 10%;
     font-size: 1.5rem;
     
 }
 #myPortfolio{
-    padding: 10px;
+    /* margin: 7% 15%; */
+    padding: 7% 7%;
+    font-size: 1.5rem;
     background-color:#dedcdd ;
+    
 }
-
-/* <a href="https://www.linkedin.com/in/luana-c%C3%A9sar-389b7378/"><i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/luanacesar"><i class="fab fa-github"></i></a> */
 
 .fa-linkedin {
     margin: 5% 5%;
@@ -128,34 +109,7 @@ body {
    .fa-envelope:hover {
    color: #f3f3f2;
 } 
-/* .fa-check-circle {
-    margin: 5% 15%;
-    color: #ef8172;
-    text-align: center;
-}
-    .fa-check-circle:hover {
-        color: #ff4c68;
-        text-align: center;
-    }
 
-
-    .fa-heart {
-        margin: 5% 15%;
-        color: #ef8172;
-        text-align: center;
-    }
-    .fa-heart:hover{
-        color:#ff4c68;
-    }
-.fa-bullseye {
-        margin: 5%;
-        color: #ef8172;
-        text-align: center;
-  }
-     .fa-bullseye:hover {
-        color: #ff4c68;
-       } */
-    
 
 /*CONTACT ME*/
 
@@ -167,12 +121,19 @@ body {
     color: #40514E;
     background-color: #ffffff;
 }
-h1 {
-    margin-top: 5px auto 0 auto;
+
+h1{
+    margin-top: 0 auto;
+    line-height: 2;
+    color: #145374;
+    padding-left: 10%;
+    padding-top: 10%;
     text-align: justify;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 4.5rem;
-    color: #00334e;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    font-size: 6rem;
 }
 h2 {
     margin-top: 0 auto;
@@ -186,23 +147,26 @@ h2 {
     font-display: swap;
 }
 h3 {
+    padding: 3%;
     color: #5588a3;
     text-align: center;
     font-family: Montserrat;
     font-weight: 400;
     font-display: swap;
-    text-align: centers;
+    text-align: center;
 }
 h4 {
+    margin-top: 0 auto;
+    line-height: 4;
+    padding-left: 10%;
+    padding-top: 3%;
     color: #5588a3;
-    text-align: center;
+    text-align: justify;
     font-family: Montserrat;
     font-weight: 400;
     font-display: swap;
-    text-align: justify;
+
 }
-
-
 .Botton {
     background-color:#dedcdd;    ;
     padding: 50px 0 20px;
@@ -262,7 +226,7 @@ hr {
 }
 
 .copyright {
-    color: azure;
+    color: #145374;
     font-size: 1rem;
     padding: 20px 0;
     text-align: center;
@@ -270,4 +234,5 @@ hr {
 .title-image{
 
     border-radius: 10px;
+    padding:3% 3%;
 }
