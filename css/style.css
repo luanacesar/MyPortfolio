@@ -1,17 +1,8 @@
-#navcolor{
-    background-color: gray;
-    /* background-image: url("/images/background-pic.jpg"); */
-    background-image: url(https://github.com/luanacesar/MyPortfolio/blob/main/images/background-pic.jpg?raw=true);
-    height: 600px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-}
+
 .navbar{
     margin-left: 5%;
 }
 /*NAV*/
-
  .navbar{
     padding: 0 0 4.5rem;
 }
@@ -47,15 +38,233 @@
     }
 }
 
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+
+    #navcolor{
+        background-color: gray;
+        /* background-image: url("/images/background-pic.jpg"); */
+        background-image: url(https://github.com/luanacesar/MyPortfolio/blob/main/images/background-pic.jpg?raw=true);
+        height: 600px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    .p1{
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+    .h1p{
+        color: #145374;
+        font-size: 4.5rem;
+        text-align: justify;
+        padding-left: 10%;
+        font-family: Pacifico;
+    }
+    #h3p {
+        padding: 1%;
+        font-size: 2.5rem;
+        color: #056162;
+        text-align: center;
+        font-family: Pacifico;
+        font-weight: 400;
+        font-display: swap;
+        text-align: center;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+    h4 {
+        margin-top: 0 auto;
+        line-height: 4;
+        padding-left: 10%;
+        padding-top: 3%;
+        color: #5588a3;
+        text-align: justify;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-weight: 400;
+        font-display: swap;
+    
+    }
+    #button{
+  
+        color:black;
+    }
+    #button2{
+       
+        color:white;
+    }
+    button, #button,  #button2{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        width: 40%;
+    }   
+    .fa-linkedin {
+        margin: 5% 5%;
+        color: palegreen;
+       text-align: center;
+       font-size: 4rem;
+    }
+       .fa-linkedin:hover{
+           color:#f3f3f2;
+       } 
+       .fa-github {
+        margin: 5% 5%;
+       color: #5588a3;
+       text-align: center;
+       font-size: 4rem;
+    }
+       .fa-github:hover {
+       color: #f3f3f2;
+    }
+    
+    .fa-envelope {
+        margin: 5% 5%;
+       color: #5588a3;
+       text-align: center;
+       font-size: 4rem;
+    }
+       .fa-envelope:hover {
+       color: #f3f3f2;
+    }
+    .copyright {
+        color: #145374;
+        font-size: 1.2rem;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .fab,.fa{
+        margin: 5% 5%;
+        color: #5588a3;
+        text-align: center;
+        font-size: 4rem;
+    }
+}
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    #navcolor{
+        background-color: gray;
+        /* background-image: url("/images/background-pic.jpg"); */
+        background-image: url(https://github.com/luanacesar/MyPortfolio/blob/main/images/background-pic.jpg?raw=true);
+        height: 300px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    .p1 {
+      font-size: 15px;
+      text-align: justify;
+    }
+    .h1p{
+        color: #145374;
+        font-size: 2.5rem;
+        text-align: justify;
+        padding-left: 5%;
+        font-family: Pacifico;
+    }
+    #h3p {
+        padding: 1%;
+        font-size: 1.5rem;
+        color: #056162;
+        text-align: center;
+        font-family: Pacifico;
+        font-weight: 400;
+        font-display: swap;
+        text-align: center;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+    h4 {
+        margin-top: 0 auto;
+        font-size: 1rem;
+        line-height: 4;
+        padding-left: 5%;
+        padding-top: 3%;
+        color: #5588a3;
+        text-align: justify;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-weight: 400;
+        font-display: swap;
+    
+    }
+    #button{
+    color:black;
+    }
+    #button2{
+        color:white;
+    }
+    button, #button, #button2{
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        padding: 3px 3px;
+
+    }    
+    .fa-linkedin {
+        margin: 5% 5%;
+        color: #5588a3;
+       text-align: center;
+       font-size: 2.5rem;
+    }
+       .fa-linkedin:hover{
+           color:#f3f3f2;
+       }
+       .fa-github {
+        margin: 5% 5%;
+       color: #5588a3;
+       text-align: center;
+       font-size: 2.5rem;
+    }
+       .fa-github:hover {
+       color: #f3f3f2;
+    }
+    
+    .fa-envelope {
+        margin: 5% 5%;
+       color: #5588a3;
+       text-align: center;
+       font-size: 2.5rem;
+    }
+       .fa-envelope:hover {
+       color: #f3f3f2;
+    }
+    .copyright {
+        color: #145374;
+        font-size: 0.8rem;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .fab,.fa{
+        margin: 5% 5%;
+        color: #5588a3;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+/* .p,.p1 {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.8rem;
+} */
+
+
 /*  my bio*/
-.p,.p1 {
+/* .p,.p1 {
     line-height: 1.5;
     font-size: 2.3rem;
-}
+} */
 
 #mySkills, #myBio {
     margin: 7% 15%;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 .row-1{
     margin: 10% 7%;
@@ -76,37 +285,6 @@
     border-radius: 20px;
 }
 
-.fa-linkedin {
-    margin: 5% 5%;
-    color: #5588a3;
-   text-align: center;
-}
-   .fa-linkedin:hover{
-       color:#f3f3f2;
-   }
-.fa-github {
-    margin: 5% 5%;
-   color: #5588a3;
-   text-align: center;
-}
-   .fa-github:hover {
-   color: #f3f3f2;
-}
-
-.fa-envelope {
-    margin: 5% 5%;
-   color: #5588a3;
-   text-align: center;
-}
-   .fa-envelope:hover {
-   color: #f3f3f2;
-}
-
-.fa-laptop-code{
-    color: #5588a3;
-}
-
-
 /*CONTACT ME*/
 
     /*SELECT*/
@@ -116,15 +294,6 @@ body {
     font-size: 2em;
     color: #40514E;
     background-color: #ffffff;
-}
-
-
-.h1p{
-    color: #145374;
-    font-size: 4.5rem;
-    text-align: justify;
-    padding-left: 10%;
-    font-family: Pacifico;
 }
 
 h2 {
@@ -149,34 +318,6 @@ h3 {
     font-display: swap;
     text-align: center;
 }
-#h3p {
-    padding: 1%;
-    font-size: 2.5rem;
-    color: #056162;
-    text-align: center;
-    font-family: Pacifico;
-    font-weight: 400;
-    font-display: swap;
-    text-align: center;
-    display: inline-block;
-    margin: 0 0.5rem;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-}
-
-h4 {
-    margin-top: 0 auto;
-    line-height: 4;
-    padding-left: 10%;
-    padding-top: 3%;
-    color: #5588a3;
-    text-align: justify;
-    font-family: Montserrat;
-    font-weight: bold;
-    font-weight: 400;
-    font-display: swap;
-
-}
 .Botton {
     background-color:#dedcdd;    ;
     padding: 50px 0 20px;
@@ -184,11 +325,11 @@ h4 {
     bottom: 0;
     text-align: center;
 }
-.p,.p1 {
+/* .p,.p1 {
     line-height: 1.5;
     text-align: justify;
     font-size: 1.8rem;
-}
+} */
 
 .contact-me {
     /*background-color: #84a9ac;*/
@@ -205,13 +346,6 @@ h4 {
     /*font-size:20px;*/
 
 }
-
-.copyright {
-    color: #145374;
-    font-size: 1.2rem;
-    padding: 20px 0;
-    text-align: center;
-}
 #title-image{
 
     border-radius: 10px;
@@ -221,27 +355,6 @@ h4 {
         -ms-animation: eighty 2s ease-out forwards;
          -o-animation: eighty 2s ease-out forwards;
             animation: eighty 2s ease-out forwards; */
-}
-#button{
-    display: inline-block;
-    text-align: center;
-    width: 25%;
-    text-decoration: none;
-    color:black;
-}
-#button2{
-    display: inline-block;
-    text-align: center;
-    width: 25%;
-    text-decoration: none;
-    color:white;
-
-}
-button, #button{
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-    
 }
   button:hover {
         background: linear-gradient(to bottom, #408c99 5%, #27b3e6 100%);
