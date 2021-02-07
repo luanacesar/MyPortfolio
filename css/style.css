@@ -54,6 +54,7 @@
         line-height: 1.5;
         text-align: justify;
         font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .h1p{
         color: #145374;
@@ -63,7 +64,7 @@
         font-family: Pacifico;
     }
     #h3p {
-        padding: 1%;
+        padding: 2% 2% 2%;
         font-size: 2.5rem;
         color: #056162;
         text-align: center;
@@ -138,7 +139,9 @@
         text-align: center;
     }
     .fab,.fa{
+        display: inline;
         margin: 5% 5%;
+        padding-top: 1rem;
         color: #5588a3;
         text-align: center;
         font-size: 4rem;
@@ -158,6 +161,7 @@
     .p1 {
       font-size: 15px;
       text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
     }
     .h1p{
         color: #145374;
@@ -167,6 +171,7 @@
         font-family: Pacifico;
     }
     #h3p {
+        padding-top: 1rem;
         padding: 1%;
         font-size: 1.5rem;
         color: #056162;
@@ -246,6 +251,7 @@
         color: #5588a3;
         text-align: center;
         font-size: 2rem;
+        padding-top: 1rem;
     }
 }
 
@@ -273,7 +279,7 @@
 }
 #myPortfolio{
 
-    padding: 3% 3% 3% 3%;
+    padding: 3%;
     font-size: 1.5rem;
     background-color:#dedcdd;
 
