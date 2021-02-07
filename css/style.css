@@ -141,7 +141,7 @@
         text-align: center;
         font-size: 4rem;
     }
-   #react:hover,#node:hover,#py:hover,#csharp:hover,#sql:hover,#git:hover{ 
+   #js:hover,#java:hover,#react:hover,#node:hover,#py:hover,#csharp:hover,#sql:hover,#git:hover{ 
         color: #f3f3f2;
      }
      

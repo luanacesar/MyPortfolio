@@ -23,7 +23,13 @@ document.getElementById("git").onclick = function () {
 	location.href = "https://github.com/luanacesar/OneClickCleaner";
 };
 
+//Java
+document.getElementById("java").onclick = function () {
+	location.href = "https://github.com/luanacesar/Java_Comp228_Centennial";
+};
 
-
-
+//JS
+document.getElementById("js").onclick = function () {
+	location.href = "https://github.com/luanacesar/Brazilian-restaurant";
+};
 
