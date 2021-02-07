@@ -1,31 +1,20 @@
-
-.navbar{
-    margin-left: 5%;
-}
 /*NAV*/
- .navbar{
-    padding: 0 0 4.5rem;
-}
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
+    margin-left: 5%;
 }
-
 .nav-item{
     padding: 0 18px;
 }
-
 .nav-link {
     font-size: 1.2rem;
     font-size: "Montserrat-Ligth";
 }
-
-
-#title-image{
-    width:100%;
+.column{
+    padding:5%;
 }
-
 @media(max-width:1028px ){
 
 
@@ -37,9 +26,13 @@
 
     }
 }
-
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
+
+    .navbar{
+        padding: 0 0 4.5rem;
+        margin-bottom: 5%;
+    }
 
     #navcolor{
         background-color: gray;
@@ -51,10 +44,13 @@
         background-size: cover; /* Resize the background image to cover the entire container */
     }
     .p1{
+        color:rgb(17,17,17);
+        display: block;
         line-height: 1.5;
+        height: 1.5;
         text-align: justify;
         font-size: 1.6rem;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: sans-serif;
     }
     .h1p{
         color: #145374;
@@ -74,8 +70,7 @@
         text-align: center;
         display: inline-block;
         margin: 0 0.5rem;
-        animation: bounce; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s; /* don't forget to set a duration! */
+
     }
     h4 {
         margin-top: 0 auto;
@@ -105,8 +100,8 @@
         width: 40%;
     }   
     .fa-linkedin {
-        margin: 5% 5%;
-        color: palegreen;
+           margin: 5% 5%;
+        color: #5588a3;
        text-align: center;
        font-size: 4rem;
     }
@@ -138,7 +133,7 @@
         padding: 20px 0;
         text-align: center;
     }
-    .fab,.fa{
+    #css,#html,#boot,#js,#java,#linux,#react,#node,#py,#csharp,#sql,#git{
         display: inline;
         margin: 5% 5%;
         padding-top: 1rem;
@@ -146,9 +141,19 @@
         text-align: center;
         font-size: 4rem;
     }
+   #react:hover,#node:hover,#py:hover,#csharp:hover,#sql:hover,#git:hover{ 
+        color: #f3f3f2;
+     }
+     
 }
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
   @media only screen and (max-width: 600px) {
+
+    .navbar{
+        padding: 0 0 4.5rem;
+        margin-bottom: 2%;
+    }
+
     #navcolor{
         background-color: gray;
         /* background-image: url("/images/background-pic.jpg"); */
@@ -255,40 +260,20 @@
     }
 }
 
-/* .p,.p1 {
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 1.8rem;
-} */
-
-
-/*  my bio*/
-/* .p,.p1 {
-    line-height: 1.5;
-    font-size: 2.3rem;
-} */
-
 #mySkills, #myBio {
-    margin: 7% 15%;
+    margin: 8% 15%;
     /* font-size: 1.5rem; */
 }
-.row-1{
-    margin: 10% 7%;
+.row{
+    margin: 5% 7%;
     font-size: 1.5rem;
 
 }
 #myPortfolio{
-
     padding: 3%;
     font-size: 1.5rem;
     background-color:#dedcdd;
 
-}
-#colorB{
-    border: 2px solid #5588a3;
-    padding:1% 1%;
-    background-color: #145374;
-    border-radius: 20px;
 }
 
 /*CONTACT ME*/
@@ -331,18 +316,9 @@ h3 {
     bottom: 0;
     text-align: center;
 }
-/* .p,.p1 {
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 1.8rem;
-} */
 
 .contact-me {
-    /*background-color: #84a9ac;*/
     text-align: center;
-    /* width: 60%;
-    /* margin: 0 auto;
-    margin-top: 100px auto 100px auto; */
     line-height: 1.5;
 }
 .contact-message{
@@ -352,15 +328,12 @@ h3 {
     /*font-size:20px;*/
 
 }
+
 #title-image{
 
     border-radius: 10px;
     padding:3% 3%;
-    /* -webkit-animation: eighty 2s ease-out forwards;
-       -moz-animation: eighty 2s ease-out forwards;
-        -ms-animation: eighty 2s ease-out forwards;
-         -o-animation: eighty 2s ease-out forwards;
-            animation: eighty 2s ease-out forwards; */
+    width:100%;
 }
   button:hover {
         background: linear-gradient(to bottom, #408c99 5%, #27b3e6 100%);
@@ -368,7 +341,6 @@ h3 {
     }
 
     figure {
-
         overflow: hidden;
     }
     figure:hover+span {
