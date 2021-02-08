@@ -251,13 +251,17 @@
         padding: 20px 0;
         text-align: center;
     }
-    .fab,.fa{
+    #css,#html,#boot,#js,#java,#linux,#react,#node,#py,#csharp,#sql,#git{
+        display: inline;
         margin: 5% 5%;
+        padding-top: 2rem;
         color: #5588a3;
         text-align: center;
-        font-size: 2rem;
-        padding-top: 1rem;
+        font-size: 1rem;
     }
+   #js:hover,#java:hover,#react:hover,#node:hover,#py:hover,#csharp:hover,#sql:hover,#git:hover{ 
+        color: #f3f3f2;
+     }
 }
 
 #mySkills, #myBio {
