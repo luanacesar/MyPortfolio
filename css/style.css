@@ -187,7 +187,8 @@
         text-align: center;
         display: inline-block;
         margin: 0 0.5rem;
-        
+        /* animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        /* animation-duration: 2s; don't forget to set a duration! */ */
     }
     h4 {
         margin-top: 0 auto;
@@ -250,17 +251,20 @@
         padding: 20px 0;
         text-align: center;
     }
-    #css,#html,#boot,#js,#java,#linux,#react,#node,#py,#csharp,#sql,#git{
-        display: inline;
+    .fab,.fa{
         margin: 5% 5%;
-        padding-top: 2rem;
         color: #5588a3;
         text-align: center;
-        font-size: 1rem;
+        font-size: 2rem;
+        padding-top: 1rem;
     }
-   #js:hover,#java:hover,#react:hover,#node:hover,#py:hover,#csharp:hover,#sql:hover,#git:hover{ 
-        color: #f3f3f2;
-     }
+    #sql{
+        margin: 5% 5%;
+        color: #5588a3;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
 }
 
 #mySkills, #myBio {
