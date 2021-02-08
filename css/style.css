@@ -186,6 +186,8 @@
         font-display: swap;
         text-align: center;
         display: inline-block;
+        margin: 0 0.5rem;
+        
     }
     h4 {
         margin-top: 0 auto;
